@@ -13,8 +13,8 @@ import study.querydsl.entity.Member;
 import java.util.List;
 import java.util.Optional;
 
-import static org.springframework.util.StringUtils.*;
-import static study.querydsl.entity.QMember.*;
+import static org.springframework.util.StringUtils.hasText;
+import static study.querydsl.entity.QMember.member;
 import static study.querydsl.entity.QTeam.team;
 
 @Repository
